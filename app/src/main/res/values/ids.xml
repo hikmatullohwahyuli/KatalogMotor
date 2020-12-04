@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txJudul" type="id" />
+    <item name="gambarMotor" type="id" />
+    <item name="txJenis" type="id" />
+    <item name="txtipe" type="id" />
+    <item name="txPablik" type="id" />
+    <item name="txDeskripsi" type="id" />
+    <item name="btnPertama" type="id" />
+    <item name="btnSebelumnya" type="id" />
+    <item name="btnBerikutnya" type="id" />
+    <item name="btnTerakhir" type="id" />
+</resources>

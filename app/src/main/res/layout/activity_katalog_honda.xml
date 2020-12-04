@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:padding="24dp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:layout_marginBottom="32dp"
+        android:text="Katalog Motor"
+        android:textColor="#040304"
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/genio"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/genio"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/vario125"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/vario125"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/beat"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/beat"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:id="@+id/beatstreet"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_margin="8dp"
+            android:layout_marginStart="60px"
+            android:layout_marginLeft="60px"
+            android:src="@drawable/beatstreet"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:scaleType="fitCenter"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Tekan gambar untuk membuka deskripsi)"
+        android:textStyle="italic"
+        android:layout_marginBottom="32dp"
+        />
+
+
+</LinearLayout>
